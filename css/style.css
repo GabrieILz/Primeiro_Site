@@ -5,7 +5,7 @@
 }
 
 .center{
-    max-width: 1100px;
+    max-width: 2000px;
     margin:0 auto;
     padding: 0 2%;
     display: flex;
@@ -21,17 +21,17 @@ header{
 }
 .logo h2{
     font-weight: normal;
-    font-size: 22px;
-    
+    font-size: 40px;
 }
 .menu{
     width: 80%;
     text-align: right;
+    margin-left: 150px;
     
 }
 .menu a{
     color: #124265;
-    font-size: 14px;
+    font-size: 20px;
     text-decoration: none;
     margin-right: 20px;
 }
@@ -42,9 +42,17 @@ menu a:hover{
 
 /* Section Main */
 
+.section_center{
+    max-width: 2000px;
+    margin:0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 section.main{
     
-    background-image: url('../images/computador.jpg');
+    background-image: url('../images/cool_background.jpg');
     min-height: 500px;
     background-position: center;
     background-size: cover;
@@ -58,3 +66,54 @@ section.main{
     padding: 20%;
     
 }
+.main_cta h2{
+    font-size: 60px;
+    color: white;
+}
+.main_cta p{
+    font-size: 30px;
+    color: white;
+}
+
+/* Section Products */
+.Products_Title{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding: 1%;
+}
+
+.ProductsList{
+    text-align: center;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.ProductsList img{
+    border-radius: 15%;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.ProductItem{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.ProductName{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    
+}
+
+.ProductPrice{
+    
+    font-weight: 700;
+}
+
+@media screen and (max-width: 800px) {
+
+    
+    
+}
+
